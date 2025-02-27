@@ -3,9 +3,15 @@
 
 ## Responsibilities:
 #### The news_agent, as an Agentic AI entity, is responsible for autonomously performing the following tasks:
-* Autonomous Information Retrieval: Initiates web queries via the DuckDuckGo tool to retrieve the latest news articles concerning the USA.
- Intelligent Content Processing: Employs the Groq LLM (llama-3.3-70b-versatile) to semantically analyze the retrieved news content.
- Abstractive Summarization: Generates concise summaries of top news articles, extracting key information and insights using the LLM's text generation capabilities.
- Structured Output Generation: Formats the summarized news and insights into markdown syntax, ensuring a structured and human-readable output.
- Operational Logging: Provides visibility into its operational workflow by logging tool invocations, aiding in system monitoring and debugging (via show_tool_calls=True).
- Debug Data Provision: Facilitates detailed system analysis and troubleshooting through debug mode logging (debug_mode=True).
+#### 1.Autonomous Information Retrieval: 
+* Initiates web queries via the DuckDuckGo tool to retrieve the latest news articles concerning the USA.
+#### 2.Intelligent Content Processing: 
+* Employs the Groq LLM (llama-3.3-70b-versatile) to semantically analyze the retrieved news content.
+#### 3.Abstractive Summarization: 
+* Generates concise summaries of top news articles, extracting key information and insights using the LLM's text generation capabilities.
+#### 4.Structured Output Generation: 
+* Formats the summarized news and insights into markdown syntax, ensuring a structured and human-readable output.
+#### 5.Operational Logging: 
+* Provides visibility into its operational workflow by logging tool invocations, aiding in system monitoring and debugging (via show_tool_calls=True).
+#### 6.Debug Data Provision: 
+* Facilitates detailed system analysis and troubleshooting through debug mode logging (debug_mode=True).
