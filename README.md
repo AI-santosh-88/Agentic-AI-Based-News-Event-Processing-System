@@ -25,3 +25,9 @@
 * Library providing access to the DuckDuckGo search engine as a tool for the Agentic AI system to perform external information retrieval.
 #### dotenv: 
 * Utility library for managing environment variables, crucial for secure configuration management in production deployments, although its direct functional impact is not shown in the snippet.
+
+## Tools Used:
+#### DuckDuckGo Search API (via phi.tools.duckduckgo): 
+* External information retrieval tool enabling the Agentic AI system to access and query the web for news articles.
+#### Groq "llama-3.3-70b-versatile" LLM (via phi.model.groq): 
+* Core processing engine of the Agentic AI system, responsible for natural language understanding, summarization, and text generation tasks.
