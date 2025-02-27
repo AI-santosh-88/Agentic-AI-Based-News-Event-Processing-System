@@ -15,3 +15,13 @@
 * Provides visibility into its operational workflow by logging tool invocations, aiding in system monitoring and debugging (via show_tool_calls=True).
 #### 6.Debug Data Provision: 
 * Facilitates detailed system analysis and troubleshooting through debug mode logging (debug_mode=True).
+
+## Libraries Used:
+#### phi.agent: 
+* Foundation library for constructing and managing Agentic AI systems. Provides the core Agent class for defining autonomous entities.
+#### phi.model.groq: 
+* Interface library for integrating Groq's Large Language Models. Enables utilization of Groq(id="llama-3.3-70b-versatile") for advanced NLP tasks.
+#### phi.tools.duckduckgo: 
+* Library providing access to the DuckDuckGo search engine as a tool for the Agentic AI system to perform external information retrieval.
+#### dotenv: 
+* Utility library for managing environment variables, crucial for secure configuration management in production deployments, although its direct functional impact is not shown in the snippet.
