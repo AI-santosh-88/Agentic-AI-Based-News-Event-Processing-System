@@ -1,3 +1,3 @@
-## Technical Description:
+## Description:
 * This project showcases the development of an Agentic AI system designed for autonomous news aggregation and summarization.  Utilizing the phi library, it instantiates an intelligent agent, news_agent, capable of independently fetching, processing, and distilling relevant news pertaining to the USA. The system leverages a Groq Large Language Model (llama-3.3-70b-versatile) for natural language understanding and text summarization, and integrates the DuckDuckGo search engine as an external tool for information retrieval. The agent is configured with specific instructions to search for news, synthesize summaries, and format output in markdown for enhanced readability. Operational transparency is facilitated through tool call logging, and a debug mode is enabled for development and analysis. This system exemplifies an application of Agentic AI in automating news monitoring and information condensation.
 
